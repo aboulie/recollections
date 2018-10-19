@@ -60,39 +60,38 @@ const ThreeThings = () => (
     <div class="media">
       <div class="media-left">
         <img
-          src="https://images.unsplash.com/photo-1525353297422-7504381dce2d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a4d40b2476649fc60da344da4171db19&auto=format&fit=crop&w=2549&q=80"
+          src="https://www.dailydot.com/wp-content/uploads/ad2/5c/a3ede15d59bb88dd7ca77b797b017b4d.jpg"
           style={{ height: "250px", width: "396px" }}
           class="media-object-img"
         />
       </div>
       <div class="media-body">
-        <h4 class="media-heading">Always Remember... </h4>
+        <h4 class="media-heading">Remember Always... </h4>
         <p>
-          A revolutionary way to remember loved ones. By creating a Tribute
-          page, you give those whose lives they impacted an opportunity to share
-          memories, and truly continue to pay respects forever. Whether you're a
-          cousin, friend, old college roomate, or anything in between, you can
-          share your experiences and give meaning to a life that can be
-          remembered by generations to come.{" "}
+          A gentle, new way to remember your loved ones. Here, you create a tribute
+          page and give those whose lives were affected by the beloved an opportunity to share
+          fond memories, and those who remember can pay respects always. Whether you're a
+          relative, friend, old associate, even anything in between, you can
+          share your experiences and pat tribute and meaning to a life that can be
+          remembered for generations.{" "}
         </p>
       </div>
     </div>
     <div class="media">
       <div class="media-body-middle">
-        <h4 class="media-heading">Everlasting Memories...</h4>
+        <h4 class="media-heading">Eternal Memories...</h4>
         <p>
-          Share precious moments with friends and loved ones through an easy to
-          use interface. Friends and family can create "posts" on a Tribute's
-          page, which can then be liked and commented on. Is there a story you'd
-          like to share about how someone made an impact on your life? Would you
-          like to reminisce about the memories you shared together? Now you have
-          a way to contribute to someone's legacy the way they deserved to be
+          Share cherished moments with loved ones with this easy-to-use interface. 
+          Friends and family will be able to create "posts" on a Tribute's
+          page, which can in turn be commented on and liked. Maybe there is a story you'd
+          like to share about how a person made an impact on your life, reminisce about  
+          memories you shared together. This is a new way to pay tribute to someone's legacy the way they deserved to be
           remembered!
         </p>
       </div>
       <div class="media-right">
         <img
-          src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=02258f1572a46129ace07ee417d16eb1&auto=format&fit=crop&w=2550&q=80"
+          src="https://assets.community.lomography.com/76/a217bcaa5d1a0bc3bcb0a0ada6cea2f91b4b6a/536x256x2.jpg?auth=146b56ba673774689d6a7727b47b98c67cecf19e"
           style={{ height: "250px", width: "396px" }}
           class="media-object-img"
         />
@@ -101,7 +100,7 @@ const ThreeThings = () => (
     <div class="media">
       <div class="media-left">
         <img
-          src="https://images.unsplash.com/photo-1518791968894-98fbd7c1e1c7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b31069721045a9b0763eb09049eab756&auto=format&fit=crop&w=1234&q=80"
+          src="https://travelbugster.files.wordpress.com/2012/05/img7384tonemapped-x2.jpg"
           style={{ height: "250px", width: "396px" }}
           class="media-object-img"
         />
@@ -109,11 +108,11 @@ const ThreeThings = () => (
       <div class="media-body">
         <h4 class="media-heading">Build Your Family Tree...</h4>
         <p>
-          Through the process of connecting with loved ones and friends you
-          build connections which can expand your circle of memories. For future
-          generations, it will give them a way to read about first-hand accounts
-          of their ancestors. The more people share and connect, the better a
-          truly meaningful family tree is compiled.
+          Connecting with others, loved ones and friends, you can
+          build connections to expand the circle of memories around the loved one. 
+          Upcoming generations are given access to first-hand accounts
+          of ancestors. The more that people connect and share, the more filled and rich
+          the family tree will be.
         </p>
       </div>
     </div>

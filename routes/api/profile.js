@@ -15,6 +15,15 @@ const User = require('../../models/User');
 // @route - GET api/profile/test
 // @desc - tests profile route
 // @access - public
+
+// ===================== API/PROFILE/EXPERIENCE ========================= //
+
+router.post('/profile/experience', (req, res) => {
+    const jsonInfo = req.body;
+    console.log(jsonInfo);
+})
+
+// ===================== API/PROFILE/EXPERIENCE ========================= //
 router.get('/test', (req, res) => res.json({msg: "profile works"}));
 
 // @route - GET api/profile

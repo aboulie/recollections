@@ -10,11 +10,11 @@ export default () => {
             <div className="col left-column">
                   <h5>Recollections of Our Loved Ones</h5>
                   <p  id='lb-text'>A way to commemorate loved ones</p>
-                  <p  id='lb-text'>Created with the sole purpose of preserving forever lasting memories</p>
+                  <p  id='lb-text'>Created to preserving forever lasting memories</p>
               </div>
 
               <div className="col mid-column">
-                <h5>Contributor</h5>
+                <h6>Contributor</h6>
                 {/* <p id="contributor-text" > */}
                 <div className="row">
                 <div className="col"></div>
@@ -25,7 +25,7 @@ export default () => {
 
 
               <div className="col right-column">
-                <h5>Check Out the Code</h5>
+                <h6>Check Out the Code</h6>
                 <div className="row">
                 <div className="col"></div>
                   <p id="code-text" className="col">

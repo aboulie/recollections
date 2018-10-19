@@ -24,7 +24,7 @@ class Landing extends Component {
                 </h1>
                 <p className="lead">
                  {' '}
-                 Create and share tribute pages for a departed loved ones.</p>
+                 Create and share tributes of departed loved ones.</p>
                 <hr />
                 <Link to="/register" className="btn btn-lg btn-info mr-2">
                   Sign Up

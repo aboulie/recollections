@@ -1,8 +1,8 @@
 .footer-wrapper{
     background: black;
-    max-height: 190px;
+    max-height: 100px;
     text-align: center;
-    padding: 45px;
+    padding: 0px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -10,7 +10,7 @@
 
 
 .white-footer.text{
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -23,24 +23,24 @@
 }
 
 #logo{
-    height: 50px;
+    height: 0px;
     width: 50px;
     display: block;
 }
 
 #contributor-text{
-    margin-top:10px;
-    font-size: 14px;
+    margin-top:0px;
+    font-size: 12px;
 }
 
 #lb-text{
-    margin-top:10px;
-    font-size: 14px;
+    margin-top:0px;
+    font-size: 12px;
 
 }
 
 #code-text{
-    margin-top:10px;
+    margin-top:0px;
     font-size: 16px;
 
 }
