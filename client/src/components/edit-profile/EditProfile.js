@@ -9,6 +9,7 @@ import InputGroup from '../common/InputGroup';
 import { createProfile, getCurrentProfile, getProfileById } from '../../actions/profileActions';
 import isEmpty from '../../validation/is-empty';
 import { Link } from 'react-router-dom';
+import API from "../../utils/API";
 
 class CreateProfile extends Component {
   constructor(props) {
@@ -96,6 +97,7 @@ class CreateProfile extends Component {
     }
 
     this.props.createProfile(profileData, this.props.history);
+    API.postProfile(profileData);
   }
 
   onChange(e) {

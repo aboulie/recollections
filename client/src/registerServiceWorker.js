@@ -61,10 +61,8 @@ const isLocalhost = Boolean(
           installingWorker.onstatechange = () => {
             if (installingWorker.state === 'installed') {
               if (navigator.serviceWorker.controller) {
-                // At this point, the old content will have been purged and
-                // the fresh content will have been added to the cache.
-                // It's the perfect time to display a "New content is
-                // available; please refresh." message in your web app.
+                // old content purged; fresh content added to cache
+                // display "new content available; refresh." message in web app.
                 console.log('New content is available; please refresh.');
               } else {
                 // At this point, everything has been precached.
@@ -82,10 +80,10 @@ const isLocalhost = Boolean(
   }
   
   function checkValidServiceWorker(swUrl) {
-    // Check if the service worker can be found. If it can't reload the page.
+    // Check if  service worker found. If not, reload the page.
     fetch(swUrl)
       .then(response => {
-        // Ensure service worker exists, and that we really are getting a JS file.
+        // Make sure service worker exists and we are actually getting JS file.
         if (
           response.status === 404 ||
           response.headers.get('content-type').indexOf('javascript') === -1
